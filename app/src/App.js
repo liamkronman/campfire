@@ -32,7 +32,7 @@ function App() {
     if (event.key === 'Enter') {
       setCampName(inputValue);
       setInFire(true)
-      const newSocket = io(`http://localhost:8080/api`);
+      const newSocket = io(`http://localhost:8080/`);
       setSocket(newSocket);
     }
   }
